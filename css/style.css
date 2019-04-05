@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:900');
+
+body {
+  background-color: pink;
+  font-family: 'Heebo', sans-serif;
+}
+
+.big-title {
+  font-size: 10vmin;
+  letter-spacing: 10px;
+}
+
+.intro {
+  margin-left: -300px;
+}
+
+h2, h3 {
+  font-size: 5vmin;
+  letter-spacing: 10px;
+  text-decoration: none;
+  text-transform: none;
+  color: #222222;
+}
+
+h2 {
+  padding: 20px;
+}
+
+h3 {
+  font-size: 12vmin;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: #222222;
+}
+
+main {
+  height: 100vh;
+  width: 500%;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  align-items: center;
+}
+
+.scrolling-wrapper-flexbox.project {
+  flex: 0 0 auto;
+}
+
+/* .scrolling-wrapper, .scrolling-wrapper-flexbox {
+  height: 80px;
+  margin-bottom: 20px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+} */
+nav a {
+  padding: 30px 30px 30px 0;
