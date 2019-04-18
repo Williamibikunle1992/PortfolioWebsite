@@ -107,6 +107,14 @@ h1, h2, h4 {
   background-image: url(../images/macbook1.jpeg);
 }
 
+#shopify {
+  background-image: url(../images/sp-background.jpg);
+}
+
+#blog {
+  background-image: url(../images/blog-background.jpg);
+}
+
 .project-content {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
@@ -271,4 +279,17 @@ button:hover {
   .button, .email {
     width: 100%;
   }
+}
+
+i.fab {
+  display: inline-block;
+  font-size: 40px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.projectlink {
+  color: #EEDE00;
+  text-decoration: none;
 }
